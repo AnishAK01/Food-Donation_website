@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    width: 85%;
+    height: 75px;
+    margin: 10px auto auto 100px;
+    /* border: 2px solid ; */
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(127,220,255);
+background: linear-gradient(180deg, rgba(127,220,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+nav img{
+    height: 50px;
+    margin-left: 10px;
+}
+.location p {
+    overflow: hidden;
+    width: 100 px;
+   
+}
+.home{
+    width: 10%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location{
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid aliceblue;
+    height: 100%;
+
+}
+.location i {
+    margin: 15px;
+    font-size: 25px;
+}
+.about, .yourDonationTab{
+    border: 2px solid aliceblue;
+    width: 13%;
+    height: 100%;
+    /* text-align: center; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.logopt{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.logopt div{
+    margin: 10px;
+    font-size: 15px;
+  
+    padding: 5px;
+}
+
+i:hover{
+    box-shadow: 1px 1px 15px yellow;
+}
+.log{
+    position: relative;
+    left: 10px;
+    border-right: 1.5px solid ;
+}
+.sign{
+    position: relative;
+right: 10px;
+border-left: 1.5px solid ;
+
+}
