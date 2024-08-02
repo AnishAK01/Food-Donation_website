@@ -39,6 +39,7 @@ nav img{
     align-items: center;
     justify-content: space-between;
     border: 2px solid aliceblue;
+    border-bottom: none;
     height: 100%;
 
 }
@@ -48,6 +49,8 @@ nav img{
 }
 .about, .yourDonationTab{
     border: 2px solid aliceblue;
+    border-bottom: none;
+
     width: 13%;
     height: 100%;
     /* text-align: center; */
@@ -81,4 +84,103 @@ i:hover{
 right: 10px;
 border-left: 1.5px solid ;
 
+}
+
+.container{
+    /* border: 2px solid blue; */
+    margin: 20px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    /* border: 2px solid rgb(255, 0, 0); */
+    height: 480px;
+    margin-top: 20px;
+display: flex;
+}
+.sec1 ,.sec2{
+    /* border: 2px solid rgb(85, 255, 0); */
+    width: 50%;
+
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+}
+.sec1 img{
+    height: 100%;
+    width: 95%;
+    border-radius: 50px;
+}
+.sec2{
+    padding: 10px;
+}
+.sec2 p{
+font-size: 1.35rem;
+text-align: center;
+}
+.mid{
+    /* border: 2px solid rgb(255, 0, 179); */
+margin-top: 50px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+.mid img{
+    /* height: 50%; */
+    margin: 10px;
+    border: 1px solid gray;
+}
+.mid .graph ,.chart{
+    /* border: 3px solid; */
+    /* height: auto; */
+    width: 90%;
+    margin: 10px auto;
+}
+.graph img{
+    height: 380px;
+}
+.graph div{
+    /* border: 3px solid yellow; */
+    width: 100%;
+    display: flex;
+    height: 80%;
+    flex-wrap: nowrap;
+
+}
+.graph{
+    display: flex;
+    flex-direction: column;
+}
+.chart{
+    margin-top: 50px;
+    display: flex;
+    /* flex-direction: column; */
+
+}
+.chart img{
+    margin: 10px auto;
+    /* border: 1px solid gray; */
+height: 500px;
+}
+.mid p{
+    font-size: 1.2rem;
+    line-height: 60px;
+}
+.chart p {
+    padding: 10px;
+}
+
+.bottom{
+    font-size: 1.4rem;
+    margin: 20px;
+}
+.bottom h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bottom h5{
+    text-align: center;
+    line-height: 50px;
 }
